@@ -205,7 +205,7 @@ FREE_LINE = list(False for x in range(10))
 field = list(FREE_LINE[:] for x in range(20))
 background = Background(LINE, FLOOR, field)
 # essentials
-stages = (10, 20, 30, 40, 50, 60, 70, 80, 90)
+stages = (100, 200, 300, 400, 500, 600, 700, 800, 900)
 score = 0
 old_scr = 0
 time = 0
