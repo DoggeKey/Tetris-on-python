@@ -258,7 +258,7 @@ while not GAME_OVER:
 		current = Figure(selected)
 		placed = False
 		# if figure can't be placed -> end game
-		if current.check(1, 3, background) == True:
+		if current.check(y, x, background) == True:
 			GAME_OVER = True
 	
 	# update borders
